@@ -1,2 +1,2 @@
-# DRLND
-Deep Reinforcement Learning Nanodegree by Udacity
+# Deep Reinforcement Learning Nanodegree by Udacity
+
