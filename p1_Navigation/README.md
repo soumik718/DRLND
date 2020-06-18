@@ -55,3 +55,5 @@ The task is episodic, and in order to solve the environment, your agent must get
     * `dqn_agent.py` - a [DQN agent with Experience Replay and Fixed Q-Targets](https://deepmind.com/research/publications/human-level-control-through-deep-reinforcement-learning) | `checkpoint_dqn.pt` - trained agent parameters.
     * `ddqn_agent.py` - a [Double DQN agent with Experience Replay](https://arxiv.org/abs/1509.06461) | `checkpoint_ddqn.pt` - trained agent parameters.
     * `dqn_per_agent.py` - a [DQN agent with Prioritized Experience Replay](https://arxiv.org/abs/1511.05952) | `checkpoint_dqn_per.pt` - trained agent parameters.
+    
+- `images/` - directory contains images related to the documentation of this project.
