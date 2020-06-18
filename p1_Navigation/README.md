@@ -47,13 +47,11 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 ### Submission overview
 
-Follow the instructions in `Navigation.ipynb` to get started with training your own agent!
-
 - `Navigation.ipynb` - file with fully functional code.
 - `Report.pdf` - a PDF export of the project report.
 - `model.py` - the configuration of the neural network.
 - Agents:
 
-    * `dqn_agent.py` - a [DQN agent with Experience Replay and Fixed Q-Targets](https://deepmind.com/research/publications/human-level-control-through-deep-reinforcement-learning) |
-    * `ddqn_agent.py` - a [Double DQN agent with Experience Replay](https://arxiv.org/abs/1509.06461) |
-    * `dqn_per_agent.py` - a [DQN agent with Prioritized Experience Replay](https://arxiv.org/abs/1511.05952) |
+    * `dqn_agent.py` - a [DQN agent with Experience Replay and Fixed Q-Targets](https://deepmind.com/research/publications/human-level-control-through-deep-reinforcement-learning) | `checkpoint_dqn.pt` - trained agent parameters.
+    * `ddqn_agent.py` - a [Double DQN agent with Experience Replay](https://arxiv.org/abs/1509.06461) | `checkpoint_ddqn.pt` - trained agent parameters.
+    * `dqn_per_agent.py` - a [DQN agent with Prioritized Experience Replay](https://arxiv.org/abs/1511.05952) | `checkpoint_dqn_per.pt` - trained agent parameters.
