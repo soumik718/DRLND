@@ -43,8 +43,17 @@ The task is episodic, and in order to solve the environment, your agent must get
 
     (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip) to obtain the environment.
 
-2. Place the file in the DRLND GitHub repository, in the `p1_navigation/` folder, and unzip (or decompress) the file. 
+2. Place the file in the DRLND GitHub repository, in the `p1_Navigation/` folder, and unzip (or decompress) the file. 
 
-### Instructions
+### Submission overview
 
 Follow the instructions in `Navigation.ipynb` to get started with training your own agent!
+
+- `Navigation.ipynb` - file with fully functional code.
+- `Report.pdf` - a PDF export of the project report.
+- `model.py` - the configuration of the neural network.
+- Agents:
+
+    * `dqn_agent.py` - a [DQN agent with Experience Replay and Fixed Q-Targets](https://deepmind.com/research/publications/human-level-control-through-deep-reinforcement-learning) |
+    * `ddqn_agent.py` - a [Double DQN agent with Experience Replay](https://arxiv.org/abs/1509.06461) |
+    * `dqn_per_agent.py` - a [DQN agent with Prioritized Experience Replay](https://arxiv.org/abs/1511.05952) |
