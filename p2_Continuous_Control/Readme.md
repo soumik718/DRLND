@@ -16,10 +16,9 @@ The algorithm used here is a Deep Deterministic Policy Gradient (DDPG). A DDPG i
 - `Continuous_Control.ipynb` - file with fully functional code.
 - `Report.pdf` - a PDF export of the project report.
 - `model.py` - the configuration of the neural network.
+- Trained parameters 
+   * `checkpoint_actor.pth` - trained actor parameters.
+   * `checkpoint_critic.pth` - trained critic parameters.
 - Agents:
-
     * `ddpg_agent.py` - a [Deep Deterministic Policy Gradient (DDPG) Agent](https://spinningup.openai.com/en/latest/algorithms/ddpg.html)
-    * `checkpoint_actor.pth` - trained actor parameters.
-    * `checkpoint_critic.pth` - trained critic parameters.
-    
 - `images/` - folder contains images related to the documentation of 
