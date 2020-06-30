@@ -13,7 +13,7 @@ The algorithm used here is a Deep Deterministic Policy Gradient (DDPG). A DDPG i
 
 ### Submission overview
 
-- `Navigation.ipynb` - file with fully functional code.
+- `Continuous_Control.ipynb` - file with fully functional code.
 - `Report.pdf` - a PDF export of the project report.
 - `model.py` - the configuration of the neural network.
 - Agents:
