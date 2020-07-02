@@ -42,3 +42,15 @@ The environment is considered solved when the average (over 100 episodes) of tho
 The algorithm used here is a Multi-Agent Deep Deterministic Policy Gradient (MADDPG). This algorithm has multiple competitive agents that are suitable for the game like a Tennis environment.
 
 ### Submission overview
+
+- `Tennis.ipynb` - file with fully functional code.
+- `Report.pdf` - a PDF export of the project report.
+- `model.py` - the configuration of the neural network.
+- `weights/` : Trained parameters 
+   * `checkpoint_actor_0.pth` - trained actor parameters for agent 0
+   * `checkpoint_actor_1.pth` - trained actor parameters for agent 1
+   * `checkpoint_critic_0.pth` - trained critic parameters for agent 0
+   * `checkpoint_critic_1.pth` - trained critic parameters for agent 1
+- Agents:
+    * `maddpg_agent.py` - a [Multi-Agent Deep Deterministic Policy Gradient (MADDPG) Agent](https://arxiv.org/pdf/1706.02275.pdf)
+- `images/` - folder contains images related to the documentation of 
