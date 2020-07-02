@@ -3,7 +3,7 @@
 
 ### Project Goal
 
-The goal of this project is to train two RL agents to play tennis. As in real tennis, the goal of each player is to keep the ball in play. And, when you have two equally matched opponents, you tend to see fairly long exchanges where the players hit the ball back and forth over the net.
+This project aims to train two RL agents to play tennis in the Unity ML-Agents Tennis Environment. As in real tennis, the goal of each player is to keep the ball in play. When you have two equally matched opponents, you tend to see reasonably long exchanges where the players hit the ball back and forth over the net.
 
 <img src="https://user-images.githubusercontent.com/10624937/42135623-e770e354-7d12-11e8-998d-29fc74429ca2.gif">
 
