@@ -39,5 +39,6 @@ The environment is considered solved when the average (over 100 episodes) of tho
 
 ### Algorithms
 
+The algorithm used here is a Multi-Agent Deep Deterministic Policy Gradient (MADDPG). This algorithm has multiple competitive agents that are suitable for the game like a Tennis environment.
 
 ### Submission overview
